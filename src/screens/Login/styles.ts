@@ -27,6 +27,14 @@ styles.Text = styled.p`
   font-size: 18px;
   font-weight: bold;
 `;
-styles.Image = styled.img``;
+
+styles.Image = styled.img`
+  width: 80vw;
+  height: 70vh;
+`;
+
+styles.a = styled.a`
+  text-decoration: none;
+`;
 
 export default styles;

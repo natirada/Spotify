@@ -24,6 +24,7 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-use-before-define": "warn",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "import/extensions": "off"
   }
 }

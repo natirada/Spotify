@@ -1,6 +1,7 @@
 import React from 'react';
 // @ts-ignore
 import useAuth from '../../hooks/useAuth';
+import Drawer from '../../components/Drawer/Drawer';
 
 interface Props {
   code: string;
@@ -8,7 +9,11 @@ interface Props {
 
 const Main = ({ code }: Props) => {
   const { accessToken } = useAuth(code);
-  return <div>Connected!!</div>;
+  return (
+    <div>
+      <Drawer />
+    </div>
+  );
 };
 
 export default Main;

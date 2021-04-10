@@ -33,4 +33,8 @@ styles.Image = styled.img`
   height: 70vh;
 `;
 
+styles.a = styled.a`
+  text-decoration: none;
+`;
+
 export default styles;
